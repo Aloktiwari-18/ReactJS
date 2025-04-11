@@ -17,7 +17,8 @@ const handleSubmit=(e)=>{
     <div>
       <h2>Login </h2>
       <input  type="text" 
-      placeholder='userName' 
+      placeholder='userName'
+     
       value={userName}
       onChange={(e)=>setUserName(e.target.value)}/>
 
@@ -25,6 +26,7 @@ const handleSubmit=(e)=>{
     <input  type="text" 
       placeholder='Password' 
       value={userPassword}
+      
       onChange={(e)=>setUserPassword(e.target.value)}
     />
     <button onClick={handleSubmit}>Submit</button>
